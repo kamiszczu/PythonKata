@@ -2,4 +2,4 @@
 
 
 
-![Image description](https://www.codewars.com/users/kamiszczu/badges/large)
+![Codewars - my kata](https://www.codewars.com/users/kamiszczu/badges/large)
