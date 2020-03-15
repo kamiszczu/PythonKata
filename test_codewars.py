@@ -15,6 +15,7 @@ from codewars.Odd_or_Even import odd_or_even
 from codewars.Pete_baker import cakes
 from codewars.Spin_words import spin_words
 from codewars.The_Hashtag_Generator import generate_hashtag
+from codewars.Two_oldest_ages import two_oldest_ages
 
 
 class TestCase(unittest.TestCase):
@@ -65,3 +66,7 @@ class TestCase(unittest.TestCase):
 
     def test_format_duration(self):
         self.assertEqual(format_duration(62), "1 minute and 2 seconds")
+
+    def test_two_oldest_ages(self):
+        self.assert_equals(two_oldest_ages([6, 5, 83, 5, 3, 18]), [18, 83])
+
